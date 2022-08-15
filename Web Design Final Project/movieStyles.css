@@ -1,0 +1,226 @@
+body {
+    word-wrap: break-word;
+    background-color: black;
+}
+
+img {
+    margin-top:-10px;
+    margin-bottom:5px;
+    di
+    play: initial;
+    background: none;
+    float:left;
+}
+
+.logo {
+    margin-top:-10px;
+    margin-bottom:5px;
+    display: initial;
+    background: none;
+    float:left;
+    margin-left: 100px;
+}
+
+#actors {
+    margin-top:-10px;
+    margin-bottom:5px;
+    display: initial;
+    background: none;
+    float:left;
+    border:3px solid white;
+    width:400px;
+}
+
+#actorsR {
+    margin-top:-10px;
+    margin-bottom:5px;
+    display: initial;
+    background: none;
+    float:left;
+    border:3px solid white;
+    width:400px;
+    margin-left:300px;
+}
+
+h1 {
+    color: red;
+    border-width:5px;
+    border-color: black;
+    text-align:left;
+    font-size: 42px;
+    margin-top:-10px;
+    margin-bottom:5px;
+    padding-left:50px;
+    display: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size:40px;
+    text-align:center;
+    color: white;
+    opacity: 0.9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size:21px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+section {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.parallax1 {
+    background-image:url("homepagepic.jpg");
+
+    height:600px;
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.parallax2 {
+    background-image:url("jumanji_2.jpg");
+
+    height:600px;
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.parallax3 {
+    background-image:url("jumanji_3.jpg");
+
+    height:600px;
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.parallax4 {
+    background-image:url("jumanji_4.jpg");
+
+    height:600px;
+
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+
+/* Nav Bar */
+
+nav {
+    z-index: 1;
+    background-color: black;
+    padding-top: 10pt;
+    padding-left: 500x;
+    padding-bottom: -100px;
+    padding-right: 100px;
+    display: inline;
+    border-radius: 4px;
+    color: red;
+    top: 0px;
+    position: fixed;
+    width:100%;
+}
+
+nav a {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 1pt;
+    padding-top: 10pt;
+    text-decoration: none;
+    color: red;
+    text-decoration: none;
+    font-size: 22pt;
+    position: static;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover {
+    background-color: rgb(32, 34, 36);
+    padding-top: 10pt;
+    padding-bottom: 6pt;
+    overflow: hidden;
+}
+
+.active {
+    background-color: rgb(92, 0, 0);
+    padding-top: 10pt;
+    padding-bottom: 6pt;
+}
+
+footer {
+    width: 100%;
+    color: white;
+}
+
+.review {
+    margin-left:900px; 
+    margin-top: -90px;
+}
+
+.trailer {
+float: left;
+margin-bottom:50px;
+}
+
+#name {
+    color:red;
+    margin-top:-15px;
+}
+
+#heading2 {
+    margin-top:-25px;
+    width:100%;
+}
+
+/*Actors Page */
+
+table {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: none;
+    float: left;
+}
+
+td {
+    padding: 5px;
+    margin-right: 300px;
+    width:300px;
+}
+
+th {
+    padding: 10px;  
+    font-size: 35px;
+    color: red;
+    margin-left: 400px;
+    margin-right: 400px;
+    width: 450px;
+}
+
+a {
+    text-decoration:none;
+    color: red;
+}
